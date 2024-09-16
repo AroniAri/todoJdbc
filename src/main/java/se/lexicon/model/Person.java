@@ -7,7 +7,7 @@ public class Person {
         private int id;
         private String firstName;
         private String lastName;
-        private LocalDate dateOfBirth;
+
 
         public String getFirstName() {
                 return firstName;
@@ -33,11 +33,5 @@ public class Person {
                 this.lastName = lastName;
         }
 
-        public LocalDate getDateOfBirth() {
-                return dateOfBirth;
-        }
 
-        public void setDateOfBirth(LocalDate dateOfBirth) {
-                this.dateOfBirth = dateOfBirth;
-        }
 }
